@@ -16,6 +16,11 @@
     transform: translate3D(0, 100%, 0);
   }
 
+  &.md-full .md-sidenav-content {
+    width: 100%;
+    // transform: translate3D(0, 100%, 0);
+  }
+
   &.md-fixed {
     .md-sidenav-content,
     .md-sidenav-backdrop {
